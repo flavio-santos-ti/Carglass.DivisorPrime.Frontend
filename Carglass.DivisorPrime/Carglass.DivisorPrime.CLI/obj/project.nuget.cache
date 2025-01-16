@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "g96sm7sAnuitJbP/OFrr9fUG0Rb8IUZJguDu0MouNbGveIat59OYOE+qQct0tPvB4O+nC5e4dO1Efe55Z+ODZg==",
+  "success": true,
+  "projectFilePath": "C:\\workarea\\projects\\.net\\Carglass\\Frontend\\Carglass.DivisorPrime\\Carglass.DivisorPrime.CLI\\Carglass.DivisorPrime.CLI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Flavio\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.1\\microsoft.extensions.configuration.9.0.1.nupkg.sha512",
+    "C:\\Users\\Flavio\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.1\\microsoft.extensions.configuration.abstractions.9.0.1.nupkg.sha512",
+    "C:\\Users\\Flavio\\.nuget\\packages\\microsoft.extensions.configuration.binder\\9.0.1\\microsoft.extensions.configuration.binder.9.0.1.nupkg.sha512",
+    "C:\\Users\\Flavio\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\9.0.1\\microsoft.extensions.configuration.fileextensions.9.0.1.nupkg.sha512",
+    "C:\\Users\\Flavio\\.nuget\\packages\\microsoft.extensions.configuration.json\\9.0.1\\microsoft.extensions.configuration.json.9.0.1.nupkg.sha512",
+    "C:\\Users\\Flavio\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.1\\microsoft.extensions.dependencyinjection.9.0.1.nupkg.sha512",
+    "C:\\Users\\Flavio\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.1\\microsoft.extensions.dependencyinjection.abstractions.9.0.1.nupkg.sha512",
+    "C:\\Users\\Flavio\\.nuget\\packages\\microsoft.extensions.diagnostics\\9.0.1\\microsoft.extensions.diagnostics.9.0.1.nupkg.sha512",
+    "C:\\Users\\Flavio\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\9.0.1\\microsoft.extensions.diagnostics.abstractions.9.0.1.nupkg.sha512",
+    "C:\\Users\\Flavio\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\9.0.1\\microsoft.extensions.fileproviders.abstractions.9.0.1.nupkg.sha512",
+    "C:\\Users\\Flavio\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\9.0.1\\microsoft.extensions.fileproviders.physical.9.0.1.nupkg.sha512",
+    "C:\\Users\\Flavio\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\9.0.1\\microsoft.extensions.filesystemglobbing.9.0.1.nupkg.sha512",
+    "C:\\Users\\Flavio\\.nuget\\packages\\microsoft.extensions.http\\9.0.1\\microsoft.extensions.http.9.0.1.nupkg.sha512",
+    "C:\\Users\\Flavio\\.nuget\\packages\\microsoft.extensions.logging\\9.0.1\\microsoft.extensions.logging.9.0.1.nupkg.sha512",
+    "C:\\Users\\Flavio\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.1\\microsoft.extensions.logging.abstractions.9.0.1.nupkg.sha512",
+    "C:\\Users\\Flavio\\.nuget\\packages\\microsoft.extensions.options\\9.0.1\\microsoft.extensions.options.9.0.1.nupkg.sha512",
+    "C:\\Users\\Flavio\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\9.0.1\\microsoft.extensions.options.configurationextensions.9.0.1.nupkg.sha512",
+    "C:\\Users\\Flavio\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.1\\microsoft.extensions.primitives.9.0.1.nupkg.sha512",
+    "C:\\Users\\Flavio\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.1\\system.diagnostics.diagnosticsource.9.0.1.nupkg.sha512",
+    "C:\\Users\\Flavio\\.nuget\\packages\\system.io.pipelines\\9.0.1\\system.io.pipelines.9.0.1.nupkg.sha512",
+    "C:\\Users\\Flavio\\.nuget\\packages\\system.text.encodings.web\\9.0.1\\system.text.encodings.web.9.0.1.nupkg.sha512",
+    "C:\\Users\\Flavio\\.nuget\\packages\\system.text.json\\9.0.1\\system.text.json.9.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

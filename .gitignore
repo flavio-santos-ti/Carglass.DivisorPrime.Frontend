@@ -1,0 +1,85 @@
+# Logs
+*.log
+*.tlog
+*.log.*
+
+# Build artifacts
+bin/
+obj/
+out/
+
+# Visual Studio specific
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider and JetBrains specific
+.idea/
+*.sln.iml
+
+# ASP.NET Scaffolding
+.scaffolding/
+
+# Coverage reports
+coverage/
+*.coverage
+*.coveragexml
+*.testlog
+*.trx
+
+# NUnit
+TestResult.xml
+nunit-*.xml
+
+# VS Code files
+.vscode/
+
+# Packages
+*.nupkg
+packages/
+
+# Enable if you're using npm
+node_modules/
+
+# Enable if you're using Yarn
+.yarn/
+.yarnrc.yml
+
+# Enable if you're using MacOS
+.DS_Store
+
+# Enable if you're using Linux
+*.swp
+
+# Enable if you're using Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Resharper
+_ReSharper*/
+*.[rR]e[Ss]harper
+
+# Azure Pipelines
+*.azuredevops
+
+# Local history for JetBrains IDEs
+.localhistory/
+
+# App settings and environment files
+appsettings*.json
+secrets.json
+
+# DotNetCore
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# IDE configuration files
+*.ide*
+
+# Test Results
+TestResults/

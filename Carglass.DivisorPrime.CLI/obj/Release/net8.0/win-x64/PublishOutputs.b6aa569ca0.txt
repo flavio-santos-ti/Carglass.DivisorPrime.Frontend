@@ -1,0 +1,3 @@
+C:\workarea\projects\.net\Carglass\build\Carglass.DivisorPrime.CLI.pdb
+C:\workarea\projects\.net\Carglass\build\appsettings.json
+C:\workarea\projects\.net\Carglass\build\Carglass.DivisorPrime.CLI.exe
