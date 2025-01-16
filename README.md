@@ -45,6 +45,21 @@ Este projeto foi estruturado utilizando boas práticas de desenvolvimento e dive
 #### **6. Tratamento de Erros Centralizado**
 - Mensagens de erro e sucesso são padronizadas pelo `ResponseBuilder`, garantindo consistência.
 
+#### **7. Métodos Pequenos e Coesos**
+- Mensagens de erro e sucesso são padronizadas pelo `ResponseBuilder`, garantindo consistência.
+
+Os métodos no projeto seguem o princípio de fazer apenas uma tarefa específica, o que facilita a leitura, manutenção e reutilização. Cada método tem uma responsabilidade clara, contribuindo para um código mais modular e legível.
+
+- **Exemplo no `ResponseBuilder`**:
+  - `WithMessage`: Adiciona uma mensagem à resposta.
+  - `AsError`: Define o estado como erro.
+  - `AsSuccess`: Define o estado como sucesso.
+  - `Build`: Constrói e retorna o objeto configurado.
+  - `Print`: Exibe a mensagem construída no console.
+  - `WaitForExit`: Pausa a execução aguardando interação do usuário.
+
+Essa abordagem evita métodos longos e complexos, reduzindo a possibilidade de erros e tornando o código mais fácil de compreender.
+
 ### 🧼 Princípios de Clean Code
 - **Nominação Significativa:** Classes e métodos possuem nomes que refletem seu propósito (ex.: `ExecuteAsync`, `WithMessage`, `AsSuccess`).
 - **Separação de Responsabilidades:** Cada classe é responsável por uma tarefa específica.
