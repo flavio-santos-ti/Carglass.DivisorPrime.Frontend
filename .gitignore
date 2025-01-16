@@ -8,6 +8,10 @@ bin/
 obj/
 out/
 
+# Ignorar arquivos DLL e EXE
+*.dll
+*.exe
+
 # Visual Studio specific
 .vs/
 *.user
@@ -62,16 +66,6 @@ $RECYCLE.BIN/
 # Resharper
 _ReSharper*/
 *.[rR]e[Ss]harper
-
-# Azure Pipelines
-*.azuredevops
-
-# Local history for JetBrains IDEs
-.localhistory/
-
-# App settings and environment files
-appsettings*.json
-secrets.json
 
 # DotNetCore
 project.lock.json
