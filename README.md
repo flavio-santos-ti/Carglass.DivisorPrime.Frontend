@@ -102,9 +102,10 @@ Essa abordagem evita métodos longos e complexos, reduzindo a possibilidade de e
 
 2. O arquivo appsettings.json deve estar no mesmo diretório da aplicação com o seguinte conteúdo:
    ```json
-{
-  "ApiSettings": {
-    "BaseUrl": "http://localhost:5180"
-  }
-}
+   {
+      "ApiSettings": {
+      "BaseUrl": "http://localhost:5180"
+      }
+   }
+
    
