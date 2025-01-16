@@ -65,3 +65,17 @@ Este projeto foi estruturado utilizando boas práticas de desenvolvimento e dive
 1. Clone este repositório:
    ```bash
    git clone https://github.com/seu-usuario/Carglass.DivisorPrime.CLI.git
+
+### Execução
+1. Após compilado, executar o comando:
+   ```bash
+   Carglass.DivisorPrime.CLI 45
+
+2. O arquivo appsettings.json deve estar no mesmo diretório da aplicação com o seguinte conteúdo:
+   ```json
+{
+  "ApiSettings": {
+    "BaseUrl": "http://localhost:5180"
+  }
+}
+   
