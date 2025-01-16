@@ -1,2 +1,0 @@
-C:\workarea\projects\.net\Carglass\Frontend\Carglass.DivisorPrime\Carglass.DivisorPrime.CLI\bin\Release\net8.0\win-x64\publish\Carglass.DivisorPrime.CLI.pdb
-C:\workarea\projects\.net\Carglass\Frontend\Carglass.DivisorPrime\Carglass.DivisorPrime.CLI\bin\Release\net8.0\win-x64\publish\Carglass.DivisorPrime.CLI.exe
