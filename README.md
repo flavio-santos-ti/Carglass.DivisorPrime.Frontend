@@ -60,7 +60,7 @@ Os métodos no projeto seguem o princípio de fazer apenas uma tarefa específic
 
 Essa abordagem evita métodos longos e complexos, reduzindo a possibilidade de erros e tornando o código mais fácil de compreender.
 
-#### **3. Separação de Responsabilidades**
+#### **8. Separação de Responsabilidades**
 
 - O projeto segue o **Princípio da Responsabilidade Única** (SRP do SOLID):
   - Cada classe é responsável por uma única tarefa.
@@ -69,6 +69,10 @@ Essa abordagem evita métodos longos e complexos, reduzindo a possibilidade de e
     - `DivisorService`: Lógica de negócios.
     - `ResponseBuilder`: Construção de respostas.
   - Isso facilita a compreensão e manutenção do código.
+
+#### **9. Evitando Código Duplicado**
+
+- Mensagens de erro e sucesso são centralizadas no `ResponseBuilder`, evitando repetições em diferentes partes do código.
 
 ### 🧼 Princípios de Clean Code
 - **Nominação Significativa:** Classes e métodos possuem nomes que refletem seu propósito (ex.: `ExecuteAsync`, `WithMessage`, `AsSuccess`).
