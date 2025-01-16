@@ -96,12 +96,6 @@ Essa abordagem evita métodos longos e complexos, reduzindo a possibilidade de e
    ```bash
    git clone https://github.com/seu-usuario/Carglass.DivisorPrime.CLI.git
 
-### Execução
-1. Após compilado, executar o comando:
-
-   ```bash
-   Carglass.DivisorPrime.CLI 45
-
 2. O arquivo appsettings.json deve estar no mesmo diretório da aplicação com o seguinte conteúdo:
 
    ```json
@@ -110,5 +104,12 @@ Essa abordagem evita métodos longos e complexos, reduzindo a possibilidade de e
       "BaseUrl": "http://localhost:5180"
       }
    }
+
+### Execução
+1. Após compilado, executar o comando:
+
+   ```bash
+   Carglass.DivisorPrime.CLI 45
+
 
    
