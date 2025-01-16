@@ -1,73 +1,67 @@
-# Carglass.DivisorPrime.CLI
+# ![Logo](assets/images/logo.png) Carglass.DivisorPrime.CLI
 
-## ?? Sobre o Projeto
+## üìñ Sobre o Projeto
 
-O **Carglass.DivisorPrime.CLI** È um frontend do tipo console (CLI - Command Line Interface) desenvolvido para consumir a API do projeto **Carglass.DivisorPrime.Api**. Este programa permite calcular divisores e divisores primos de n˙meros informados diretamente pelo terminal, apresentando os resultados de forma simples e eficiente.
+O **Carglass.DivisorPrime.CLI** √© um frontend do tipo console (CLI - Command Line Interface) desenvolvido para consumir a API do projeto **Carglass.DivisorPrime.Api**. Este programa permite calcular divisores e divisores primos de n√∫meros informados diretamente pelo terminal, apresentando os resultados de forma simples e eficiente.
 
-O projeto foi desenvolvido com foco em modularidade, boas pr·ticas de desenvolvimento e padrıes de design que garantem facilidade de manutenÁ„o, testabilidade e escalabilidade.
+O projeto foi desenvolvido com foco em modularidade, boas pr√°ticas de desenvolvimento e padr√µes de design que garantem facilidade de manuten√ß√£o, testabilidade e escalabilidade.
 
 ---
 
-## ??? Tecnologias Utilizadas
+## üõ†Ô∏è Tecnologias Utilizadas
 
 - **.NET 8**
-- **HttpClient** para comunicaÁ„o com a API
-- **Microsoft.Extensions.DependencyInjection** para injeÁ„o de dependÍncias
-- **Moq** para testes unit·rios
+- **HttpClient** para comunica√ß√£o com a API
+- **Microsoft.Extensions.DependencyInjection** para inje√ß√£o de depend√™ncias
+- **Moq** para testes unit√°rios
 
 ---
 
-## ??? Estrutura do Projeto
+## üèóÔ∏è Estrutura do Projeto
 
-Este projeto foi estruturado utilizando boas pr·ticas de desenvolvimento e diversos padrıes de design. Abaixo est„o os principais conceitos aplicados:
+Este projeto foi estruturado utilizando boas pr√°ticas de desenvolvimento e diversos padr√µes de design. Abaixo est√£o os principais conceitos aplicados:
 
-### ??? Frontend Console
-- O projeto foi desenvolvido como uma aplicaÁ„o **CLI (Command Line Interface)**, permitindo interaÁ„o direta com o usu·rio pelo terminal.
+### üñ•Ô∏è Frontend Console
+- O projeto foi desenvolvido como uma aplica√ß√£o **CLI (Command Line Interface)**, permitindo intera√ß√£o direta com o usu√°rio pelo terminal.
 
-### ?? Camadas e Padrıes de Design
+### üîó Camadas e Padr√µes de Design
 
-#### **1. InjeÁ„o de DependÍncia (Dependency Injection)**
-- Configurada no arquivo `DependencyInjection.cs`, utilizando o container de serviÁos do **Microsoft.Extensions.DependencyInjection**.
-- Exemplo: O `HttpClient` para chamadas ‡ API È configurado dinamicamente com a URL base a partir do arquivo `appsettings.json`.
+#### **1. Inje√ß√£o de Depend√™ncia (Dependency Injection)**
+- Configurada no arquivo `DependencyInjection.cs`, utilizando o container de servi√ßos do **Microsoft.Extensions.DependencyInjection**.
+- Exemplo: O `HttpClient` para chamadas √† API √© configurado dinamicamente com a URL base a partir do arquivo `appsettings.json`.
 
 #### **2. Builder Pattern**
-- Implementado na classe `ResponseBuilder`, que permite construir objetos de resposta de forma fluente e flexÌvel (ex.: `WithMessage`, `AsError`, `AsSuccess`).
+- Implementado na classe `ResponseBuilder`, que permite construir objetos de resposta de forma fluente e flex√≠vel (ex.: `WithMessage`, `AsError`, `AsSuccess`).
 
 #### **3. Service Layer Pattern**
-- A lÛgica principal est· centralizada no serviÁo `DivisorService`, que conecta a interface do usu·rio ‡ camada de comunicaÁ„o com a API (`DivisorApi`).
+- A l√≥gica principal est√° centralizada no servi√ßo `DivisorService`, que conecta a interface do usu√°rio √† camada de comunica√ß√£o com a API (`DivisorApi`).
 
-#### **4. IntegraÁ„o com APIs**
-- UtilizaÁ„o do `HttpClient` na classe `DivisorApi` para gerenciar chamadas HTTP ‡ API de divisores.
+#### **4. Integra√ß√£o com APIs**
+- Utiliza√ß√£o do `HttpClient` na classe `DivisorApi` para gerenciar chamadas HTTP √† API de divisores.
 
 #### **5. DTOs (Data Transfer Objects)**
-- Classes como `ApiResponseDto` e `DivisorsDto` s„o utilizadas para transferir dados entre as camadas.
+- Classes como `ApiResponseDto` e `DivisorsDto` s√£o utilizadas para transferir dados entre as camadas.
 
 #### **6. Tratamento de Erros Centralizado**
-- Mensagens de erro e sucesso s„o padronizadas pelo `ResponseBuilder`, garantindo consistÍncia.
+- Mensagens de erro e sucesso s√£o padronizadas pelo `ResponseBuilder`, garantindo consist√™ncia.
 
-### ?? PrincÌpios de Clean Code
-- **NominaÁ„o Significativa:** Classes e mÈtodos possuem nomes que refletem seu propÛsito (ex.: `ExecuteAsync`, `WithMessage`, `AsSuccess`).
-- **SeparaÁ„o de Responsabilidades:** Cada classe È respons·vel por uma tarefa especÌfica.
-- **Simplicidade:** CÛdigo organizado, com funÁıes pequenas e claras.
+### üßº Princ√≠pios de Clean Code
+- **Nomina√ß√£o Significativa:** Classes e m√©todos possuem nomes que refletem seu prop√≥sito (ex.: `ExecuteAsync`, `WithMessage`, `AsSuccess`).
+- **Separa√ß√£o de Responsabilidades:** Cada classe √© respons√°vel por uma tarefa espec√≠fica.
+- **Simplicidade:** C√≥digo organizado, com fun√ß√µes pequenas e claras.
 
-### ? Testes Unit·rios
-- Testes est„o implementados para garantir a funcionalidade das classes (`DivisorServiceTests`, `DivisorApiTests`).
-- UtilizaÁ„o de **Moq** para simular dependÍncias e isolar o comportamento dos componentes.
+### ‚úÖ Testes Unit√°rios
+- Testes est√£o implementados para garantir a funcionalidade das classes (`DivisorServiceTests`, `DivisorApiTests`).
+- Utiliza√ß√£o de **Moq** para simular depend√™ncias e isolar o comportamento dos componentes.
 
 ---
 
-## ?? ConfiguraÁ„o e ExecuÁ„o
+## ‚öôÔ∏è Configura√ß√£o e Execu√ß√£o
 
-### PrÈ-requisitos
-- **.NET 8 SDK** instalado em sua m·quina.
+### Pr√©-requisitos
+- **.NET 8 SDK** instalado em sua m√°quina.
 
-### ConfiguraÁ„o
-1. Clone este repositÛrio:
+### Configura√ß√£o
+1. Clone este reposit√≥rio:
    ```bash
    git clone https://github.com/seu-usuario/Carglass.DivisorPrime.CLI.git
-
-### ExecuÁ„o
-1. Exemplo de execuÁ„o do compilado:
-   ```bash
-   Carglass.DivisorPrime.CLI 45
-
